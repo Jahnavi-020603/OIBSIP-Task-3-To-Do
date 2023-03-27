@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+}
+
+body {
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+    
+}
+
+/* task title */
+.title {
+    font-size: 30PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 10px 30px 20px;
+    margin-left: auto;
+    float: center;
+    color: rgba(241, 55, 195, 0.814);
+    margin-top: 50px;
+    
+}
+
+/* task */
+.input {
+    display: grid;
+    column-gap: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-columns: 30% 10%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.textarea {
+    min-height: 60px;
+    height: 50px;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 20px;
+    border-color: #1f1f1f;
+    font-size: 20px;
+    padding: 10px 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.textarea::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #31bf3101;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8af59549;
+    cursor: pointer;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #d0db58;
+}
+
+
+.btnt {
+    border-radius: 10px;
+    border-color: #28300d;
+    background-color: rgba(199, 228, 130, 0.078);
+    font-size: 20px;
+}
+
+.btnt:hover {
+    background-color: #72f675;
+    color: white;
+}
+
+/* js */
+.todolist {
+    margin-top: 25px;
+    align-items: center;
+    height: 0S;
+    width: 65vh;
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 450px;
+}
+
+.itemall {
+    display: grid;
+    grid-template-columns: 60% 5% 5%;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.item, .check-button, .trash-button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.784);
+    min-height: 30px;
+    padding: 10px 10px;
+}
+
+.item {
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 10px 0 0 10px;
+    display: grid;
+    align-content: center;
+    font-size: 20px;
+}
+
+.check-button, .trash-button {
+    font-size: 15px;
+}
+
+.trash-button {
+    border-radius: 0 10px 10px 0;
+}
+
+.check-button:hover {
+    background-color: #4de555;
+    color: white;
+}
+
+.trash-button:hover {
+    background-color: #d0db58;
+    color: white;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
